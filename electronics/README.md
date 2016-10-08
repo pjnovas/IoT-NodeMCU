@@ -9,3 +9,6 @@
 * I2C PCF8754
 * Display Lcd 1602 HD44780 16x2
 * 2 Relay Module - 5v to 220v 10A
+
+
+![protoboard](circuit_bb.png)
