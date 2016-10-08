@@ -11,3 +11,5 @@ Holds the 2 relay module and the outlets. It uses:
 * 4 screws of 2.5mm x 6mm (to attach the 2 relay module to the base)
 * 4 screws of 3mm x 9mm (to close the box)
 * 4 screws of 3mm x 9mm (to attach outlets on the box)
+
+![all](all_open.jpg)
