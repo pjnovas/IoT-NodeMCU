@@ -10,7 +10,7 @@
 * Outside buttons for Reset and Flash without the need for opening the box
 
 ### What's in this repo?
-* `arduino`: Arduino code for ESP8266 ESP-12F NodeMCU v2.0 (for uploading code follow [these instructions]() )
+* `arduino`: Arduino code for ESP8266 ESP-12F NodeMCU v2.0
 * `electronics`: Schema, components and modules list
 * `box`: 3D design of the clousure and STL files for 3D Printing
 
