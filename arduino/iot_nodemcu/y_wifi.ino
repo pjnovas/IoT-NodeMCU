@@ -26,6 +26,7 @@ void read_signal() {
 
 void connectToWifi() {
   WiFi.begin(ssid, password);
+  WiFi.mode(WIFI_STA);
 
   #ifdef DEBUG
     Serial.print("\n\r \n\rWorking to connect");

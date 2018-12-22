@@ -6,13 +6,12 @@
 DHT dht(DHTPIN, DHTTYPE, 11);
 
 unsigned long dht_previousMillis = 0;       // will store last temp was read
-const long dht_interval = 30000;            // interval at which to read sensor
 
 void read_temperature() {
   float _humidity, _temp_c, _hi_c;
   unsigned long currentMillis = millis();
 
-  if(currentMillis - dht_previousMillis >= dht_interval) {
+  if(currentMillis - dht_previousMillis >= globalConfig.refreshRate) {
     dht_previousMillis = currentMillis;
 
     _humidity = dht.readHumidity();
